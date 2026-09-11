@@ -17,7 +17,8 @@ External ecosystem and project URLs are centralized in `js/routes.js`. The Web r
 ## Content sources
 
 - Approved mascot and icons: copied from the `portfolio` identity-hub branch.
-- Planet Defense and Pokémon Guessing Game cover images: preserved from the existing hub source material.
+- Planet Defense cover image: preserved from the existing hub source material.
+- Pokémon Guessing Game cover image: supplied by the project owner for the public Game site.
 - Project facts: verified against the owner’s GitHub repositories and public itch.io pages on 2026-09-11.
 - Modular 3D Character System: public paid beta, version 0.9.1-beta.1, with a browser demo and downloadable purchase on itch.io.
 
