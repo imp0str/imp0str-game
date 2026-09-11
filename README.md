@@ -1,6 +1,6 @@
 # imp0str / Game
 
-The independent Game-world site for the imp0str ecosystem. It is a dependency-free static site designed for GitHub Pages and the future `game.imp0str.dev` domain.
+The independent Game-world site for the imp0str ecosystem. It is a dependency-free static site published on GitHub Pages at `game.imp0str.dev`.
 
 ## Local preview
 
@@ -12,7 +12,7 @@ Then open `http://127.0.0.1:4174/`.
 
 ## Destination configuration
 
-External ecosystem and project URLs are centralized in `js/routes.js`. The Web route intentionally remains an in-page “coming next” destination until the future Web site is live. Do not add a `CNAME` file or change DNS during this phase.
+External ecosystem and project URLs are centralized in `js/routes.js`. The identity route points to `https://imp0str.dev`; the Web route intentionally remains an in-page “coming next” destination until the future Web site and domain are live. Do not change the working custom-domain configuration while updating site content.
 
 ## Content sources
 
