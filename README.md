@@ -12,7 +12,7 @@ Then open `http://127.0.0.1:4174/`.
 
 ## Destination configuration
 
-External ecosystem and project URLs are centralized in `js/routes.js`. The identity route points to `https://imp0str.dev`; the Web route intentionally remains an in-page “coming next” destination until the future Web site and domain are live. Do not change the working custom-domain configuration while updating site content.
+External ecosystem and project URLs are centralized in `js/routes.js`. The identity route points to `https://imp0str.dev`, and the Web route points to `https://web.imp0str.dev`. Do not change the working custom-domain configuration while updating site content.
 
 ## Content sources
 

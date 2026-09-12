@@ -31,8 +31,9 @@ assert(!html.includes('PRIVATE BETA') && !html.includes('Ask about the system'),
 assert(routes.includes("modularProduct: 'https://imp0str.itch.io/modular-3d-character-system'"), 'Product route missing');
 assert(routes.includes("modularPurchase: 'https://imp0str.itch.io/modular-3d-character-system/purchase'"), 'Purchase route missing');
 assert(html.includes('prefers-reduced-motion') || css.includes('prefers-reduced-motion'), 'Reduced-motion support missing');
-assert(!html.includes('web.imp0str.dev') && !routes.includes('web.imp0str.dev'), 'Premature Web custom domain');
 assert(routes.includes("hub: 'https://imp0str.dev'"), 'Identity hub route must use the live apex domain');
+assert(routes.includes("web: 'https://web.imp0str.dev'"), 'Web route must use the live production domain');
+assert(!/COMING NEXT|coming next|future Web site/i.test(html + routes), 'Obsolete Web launch-state copy remains');
 assert.equal(fs.readFileSync(path.join(root, 'CNAME'), 'utf8').trim(), 'game.imp0str.dev', 'Working Game CNAME changed');
 assert(!html.includes('cdnjs') && !html.includes('unpkg'), 'Unexpected external dependency');
 assert(site.includes('IMP0STR_ROUTES'), 'Route configuration is not connected');

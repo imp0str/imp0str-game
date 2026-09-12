@@ -1,7 +1,7 @@
-// Keep ecosystem destinations in one place. Change child-domain routes only after launch verification.
+// Keep live ecosystem destinations in one place.
 window.IMP0STR_ROUTES = Object.freeze({
   hub: 'https://imp0str.dev',
-  web: '#web-route',
+  web: 'https://web.imp0str.dev',
   itch: 'https://imp0str.itch.io/',
   github: 'https://github.com/imp0str',
   youtube: 'https://youtube.com/@imp0strdev',
